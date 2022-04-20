@@ -1,0 +1,26 @@
+{
+  "name": "goated-goats-marketplace-backend",
+  "version": "0.0.0",
+  "description": "Basic marketplace for Goated Goats",
+  "main": "index.js",
+  "scripts": {
+    "go": "node src/index",
+    "test": "jest"
+  },
+  "keywords": [
+    "flow",
+    "marketplace",
+    "goated",
+    "goats"
+  ],
+  "author": "Max Daunarovich",
+  "license": "GNU",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "flow-cadut": "^0.1.15-alpha.24",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25"
+  }
+}
